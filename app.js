@@ -1,7 +1,5 @@
 
-var BudgetController = (
-
-    function () {
+var BudgetController = ( function () {
         var p = 80;
         var add = function(q) {
             return p + q;
@@ -9,7 +7,7 @@ var BudgetController = (
 
         return
         {
-            pub =  function(d) {
+            publicAdd = function(d) {
                 console.log(add(d));
             }
         }
